@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>javascript</title>
+</head>
+<body>
+    <h2 >click the time button to see the time!</h2>
+<p id="time"></p>
+<button type="button"
+onclick="document.getElementById('time').innerHTML = Date()">
+TIME.</button>
+
+<br>
+  
+  <p id="element">click the click button to make me big</p>
+  
+  <button type="button" onclick="document.getElementById('element').style.fontSize='55px'">click</button>
+  
+  <br>
+  
+  <p id="hide">click the button to hide this text</p>
+  
+  
+  <button type="button" onclick="document.getElementById('hide').style.display='none'">button</button>
+  
+  <br>
+  
+  <p>click the button to see the hidden text!</p>
+  
+  <p id="fab" style="display: none;">hello.vhaia!!! :)</p>
+  <button type="button" onclick="document.getElementById('fab').style.display='block'">button</button>
+  
+  <br>
+  
+  <h2>click to change the text</h2>
+  <p id="change">when you click the button the text will change automatic.no doubt</p>
+  <button type="button" onclick="myfunction()">button</button>
+  
+  <br>
+  <h5>My First Web Page</h5>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+  <br>
+  
+  <button type="button" onclick="document.write(5 + 6)">Try it</button>
+  <br>
+  
+  <h2>i set the button</h2>
+<p>i did this.</p>
+<button type="button" onclick="window.alert(5 + 6)">click</button>
+<script>
+window.alert(5 + 6);
+</script>
+
+  
+   <script src="js/jquery-3.3.1.min.js"></script>
+   
+   
+   
+   <script>
+      function myfunction(){
+          document.getElementById("change").innerHTML = "see! i told you....";
+      }
+      </script>
+      
+      <script>
+document.getElementById("demo").innerHTML = 5 + 6;
+</script>
+</body>
+</html>
